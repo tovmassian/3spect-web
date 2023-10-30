@@ -17,6 +17,7 @@
 # Exclude locally installed dependencies
 node_modules/
 npm-debug.log
+spec/
 
 # Exclude local IDE settings
 .idea/
