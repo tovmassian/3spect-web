@@ -1,7 +1,7 @@
 {
-  "name": "cloud-run-microservice-template",
+  "name": "3-spect-web",
   "version": "1.0.0",
-  "description": "Microservice template for Cloud Run",
+  "description": "Website for threespect.com",
   "main": "index.js",
   "type": "module",
   "engines": {
