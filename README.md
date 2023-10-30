@@ -6,7 +6,6 @@ A template repository for a Cloud Run microservice, written in Node.js.
 
 ## Prerequisite
 
-
 * Enable the Cloud Run API via the [console](https://console.cloud.google.com/apis/library/run.googleapis.com?_ga=2.124941642.1555267850.1615248624-203055525.1615245957) or CLI:
 
 ```bash
