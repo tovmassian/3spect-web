@@ -20,6 +20,9 @@ const app = express();
 // Use request-based logger for log correlation
 app.use(pinoHttp);
 
+// attach public content to the server
+app.use(express.static('public'));
+
 // Example endpoint
 app.get('/', async (req, res) => {
   // Use basic logger without HTTP request info

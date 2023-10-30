@@ -1,0 +1,202 @@
+body {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+    padding: 0 20px;
+
+    background-image: url('./assets/background.gif');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.content {
+    padding: 0 100px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    text-wrap: nowrap;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+button {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 200;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.gap {
+    gap: 20px;
+}
+
+.flex.row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex.column {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flex.auto {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+@media screen and (max-width: 1120px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .flex.auto {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+.key {
+    display: inline-block;
+    letter-spacing: -2vw;
+    transition: transform 0.2s;
+}
+
+.centered {
+    text-align: center;
+}
+
+#gif {
+    filter: grayscale(1) contrast(150%);
+    width: 380px;
+    max-width: 100%;
+}
+
+#hero {
+    height: 80vh;
+    text-transform: lowercase;
+}
+
+#hero h1 {
+    font-size: 10vw;
+}
+
+#story {
+    min-height: 100vh;
+}
+
+#story h2 {
+    font-weight: normal;
+}
+
+#video {
+    width: 100%;
+    height: 150vh;
+}
+
+.video-block {
+    margin: 0 auto;
+}
+
+.video-block iframe{
+    width: 800px;
+    max-width: 100%;
+}
+
+.video-info {
+    max-width: 500px;
+}
+
+#social {
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+}
+
+#social h2 {
+    margin-bottom: 0
+}
+
+.social-icons {
+    width: 100%;
+    gap: 40px;
+    max-width: 500px;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+}
+
+#team {
+    min-height: 100vh;
+    text-align: center;
+}
+
+#team .member {
+    max-width: 300px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#team .member img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
