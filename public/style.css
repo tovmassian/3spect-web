@@ -136,11 +136,11 @@ button:hover {
     font-size: 10vw;
 }
 
-#story {
+.paragraph {
     min-height: 100vh;
 }
 
-#story h2 {
+.paragraph h2 {
     font-weight: normal;
 }
 
